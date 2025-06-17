@@ -1,0 +1,17 @@
+### Successful login
+POST https://threat-detection-app-eecea2ava7hehman.canadacentral-01.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "securepassword"
+}
+
+### Failed login
+POST https://threat-detection-app-eecea2ava7hehman.canadacentral-01.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "wrongpass"
+}
