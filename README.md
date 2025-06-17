@@ -26,3 +26,8 @@ AppServiceConsoleLogs
 | where ResultDescription contains "Failed login attempt"
 | project TimeGenerated, ResultDescription
 | sort by TimeGenerated desc
+
+---
+
+Vidoe link
+[https://youtu.be/pc1Hyvyhhi0]
